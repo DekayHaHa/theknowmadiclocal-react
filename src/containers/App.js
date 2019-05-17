@@ -16,7 +16,7 @@ export class App extends Component {
 App.propTypes = {
 };
 
-export const mapDispatchToProps = (dispatch) => ({
+export const mapDispatchToProps = dispatch => ({
 });
 
 export const mapStateToProps = state => ({

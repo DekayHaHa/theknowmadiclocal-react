@@ -7,7 +7,7 @@ import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import './index.scss';
-import App from './App/App.js';
+import App from './containers/App.js';
 
 const store = createStore(
   rootReducer,
