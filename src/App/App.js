@@ -7,7 +7,7 @@ export class App extends Component {
   render() {
     return (
       <div >
-
+        <h1>The Knowmadic Local</h1>
       </div>
     );
   }
@@ -21,4 +21,5 @@ export const mapDispatchToProps = (dispatch) => ({
 
 export const mapStateToProps = state => ({
 });
+
 export default connect(mapStateToProps, mapDispatchToProps)(App);
